@@ -1,0 +1,47 @@
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right {
+  right: 0em;
+}
+
+.side-padding {
+  padding: 0 1em !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.standout {
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+  z-index: 1;
+}
+
+.switcher li {
+  cursor: pointer;
+  display: inline;
+  color: white;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.switcher li+li:before
+{
+  content: '|';
+  padding: 0px 4px;
+}
+
+.switcher li:hover {
+  color: lightgray;
+}
+
+.switcher .axg-icon {
+  padding: 0px 4px;
+}
