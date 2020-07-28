@@ -131,3 +131,7 @@ pre.axg-debug-info {
 .in-progress {
   color: red;
 }
+
+.disabled {
+  opacity: 0.5;
+}
