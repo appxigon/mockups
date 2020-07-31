@@ -46,36 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2px 50px;
 }
 
-#index\.welcome\.main\.message {
-  text-align: center;
-}
-
-#index\.header\.main {
-  background-color: #3c8dbc;
-  margin: 0px !important;
-  display: flex;
-  width: 100%;
-  flex-flow: row;
-}
-
-#index\.header\.main\.title {
-  flex: 2;
-  padding: 5px !important;
-}
-#index\.header\.main\.user-actions {
-  flex: 1;
-  margin: 0px !important;
-  padding: 5px;
-  padding-right: 20px;
-  text-align: right;
-}
-
-#index\.header\.links {
-  background-color: #3c8dbc;
-  margin: 0px !important;
-  padding: 5px;
-}
-
 .click-box {
   /* min-height: 70px; */
   /* max-height: 50px; */
@@ -200,22 +170,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#index\.footer {
-  position: fixed;
-  bottom: 0px;
-  background: white;
-  width: 100%;
-}
-
-#index\.footer {
-  background: white;
-  color: #444;
-  margin: 0px;
-  padding: 0px 0px;
-  border-top: 1px solid #d2d6de;
-  font-size: smaller;
-}
-
 .sdg-report {
   background-color: white;
   padding: 0px 10px;
@@ -226,15 +180,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .sdg-report table {
   border-top: 1px solid #d2d6de;
-}
-
-#index\.sample-nda\.main {
-  background-color: white;
-  padding: 0px 10px;
-  margin: 10px 20px;
-  border-top: 3px solid #d2d6de;
-  border-bottom: 2px solid #d2d6de;
-  font-size: smaller;
 }
 
 .form-page {
@@ -259,4 +204,115 @@ h1, h2, h3, h4, h5, h6 {
 
 .danger {
   color: red;
+}
+
+#index\.header\.main\.title {
+  flex: 2;
+  padding: 5px !important;
+}
+#index\.header\.main\.user-actions {
+  flex: 1;
+  margin: 0px !important;
+  padding: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#index\.header\.links {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  padding: 5px;
+}
+
+#index\.footer {
+  position: fixed;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
+#index\.footer {
+  background: white;
+  color: #444;
+  margin: 0px;
+  padding: 0px 0px;
+  border-top: 1px solid #d2d6de;
+  font-size: smaller;
+}
+
+#index\.sample-nda\.main {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 20px;
+  border-top: 3px solid #d2d6de;
+  border-bottom: 2px solid #d2d6de;
+  font-size: smaller;
+}
+
+#index\.welcome\.main\.message {
+  text-align: center;
+}
+
+#index\.header\.main {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+}
+
+
+#survey\.header\.main\.title {
+  flex: 2;
+  padding: 5px !important;
+}
+#survey\.header\.main\.user-actions {
+  flex: 1;
+  margin: 0px !important;
+  padding: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#survey\.header\.links {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  padding: 5px;
+}
+
+#survey\.footer {
+  position: fixed;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
+#survey\.footer {
+  background: white;
+  color: #444;
+  margin: 0px;
+  padding: 0px 0px;
+  border-top: 1px solid #d2d6de;
+  font-size: smaller;
+}
+
+#survey\.sample-nda\.main {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 20px;
+  border-top: 3px solid #d2d6de;
+  border-bottom: 2px solid #d2d6de;
+  font-size: smaller;
+}
+
+#survey\.welcome\.main\.message {
+  text-align: center;
+}
+
+#survey\.header\.main {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
 }
