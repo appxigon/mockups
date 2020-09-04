@@ -196,6 +196,18 @@ h1, h2, h3, h4, h5, h6 {
 .form-page h3 {
   border-bottom: 1px dashed #d2d6de;
   text-transform: uppercase;
+  background-image: linear-gradient(to top right, lightgray, transparent);
+  padding: 0.5em 0.2em 0em;
+}
+.form-page h4 {
+  border-bottom: 1px dashed #d2d6de;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em 0.2em 0em;
+}
+.form-page thead {
+  font-weight: lighter;
+  font-size: 0.7em;
 }
 
 .fa-icon {
