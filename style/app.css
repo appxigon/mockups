@@ -190,6 +190,9 @@ h1, h2, h3, h4, h5, h6 {
 .form-page {
   font-size: smaller;
 }
+.form-page table .label {
+  font-size: smaller;
+}
 .form-page h2 {
   border-bottom: 2px solid #d2d6de;
 }
@@ -200,6 +203,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5em 0.2em 0em;
 }
 .form-page h4 {
+  border-bottom: 1px dashed #d2d6de;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em 0.2em 0em;
+}
+.form-page h5 {
   border-bottom: 1px dashed #d2d6de;
   text-transform: uppercase;
   font-weight: bold;
