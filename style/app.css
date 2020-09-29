@@ -190,6 +190,12 @@ h1, h2, h3, h4, h5, h6 {
 .form-page {
   font-size: smaller;
 }
+
+.form-page table {
+  padding: 0.5em;
+  border: 1px dashed lightgray;
+  background-color: #ddd;
+}
 .form-page table .label {
   font-size: smaller;
 }
