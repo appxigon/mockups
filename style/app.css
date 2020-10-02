@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
 .axg-select .control {
   display: inline-grid;
 }
-
 .axg-select.single {
   display: inline-flex;
   flex-direction: row;
@@ -150,6 +149,23 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
 }
 .axg-input .control {
+  /* display: inline-block; */
+  flex: 3;
+}
+
+.axg-group-spec {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-group-spec .axg-group {
+  margin: 0;
+}
+.axg-group-spec .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-group-spec .control {
   /* display: inline-block; */
   flex: 3;
 }
