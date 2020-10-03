@@ -153,19 +153,19 @@ h1, h2, h3, h4, h5, h6 {
   flex: 3;
 }
 
-.axg-group-spec {
+.axg-composite-field {
   display: inline-flex;
   flex-direction: row;
   width: 100%;
 }
-.axg-group-spec .axg-group {
+.axg-composite-field .axg-group {
   margin: 0;
 }
-.axg-group-spec .label {
+.axg-composite-field .label {
   display: inline-block;
   flex: 1;
 }
-.axg-group-spec .control {
+.axg-composite-field .control {
   /* display: inline-block; */
   flex: 3;
 }
