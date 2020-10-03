@@ -135,3 +135,8 @@ pre.axg-debug-info {
 .disabled {
   opacity: 0.5;
 }
+
+.axg-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
