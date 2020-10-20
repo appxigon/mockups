@@ -7,13 +7,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-label {
-  text-align: left;
-  clear: right;
-  float: left;
-  margin-right: 0.5em;
-}
-
 .sdg-debug {
   color: red;
   opacity: 0.3;
@@ -378,7 +371,6 @@ label {
 
 .axg-select .group-label {
   font-weight: bold;
-  background-image: linear-gradient(to top right, lightgray, transparent);
+  border-bottom: 1px dashed lightgray;
   padding: 0.5em 0.2em 0em;
-  clear: left;
 }

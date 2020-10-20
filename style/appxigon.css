@@ -140,3 +140,7 @@ pre.axg-debug-info {
   opacity: 0.3;
   pointer-events: none;
 }
+
+.control label {
+  white-space: nowrap;
+}
