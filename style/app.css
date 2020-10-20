@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   flex: 3;
 }
 .axg-select.multi .control.compact {
-  display: inline-flex;
+  display: inline-block;
   flex: 3;
 }
 
