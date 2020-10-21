@@ -144,3 +144,12 @@ pre.axg-debug-info {
 .control label {
   white-space: nowrap;
 }
+
+.tooltip {
+  border-radius: 5px;
+  opacity: 0.8;
+  padding: 0.5em;
+  background-color: orange;
+  box-shadow: 2px 2px 5px gray;
+  z-index: 100;
+}
