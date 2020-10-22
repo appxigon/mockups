@@ -145,7 +145,7 @@ pre.axg-debug-info {
   white-space: nowrap;
 }
 
-.tooltip {
+.popper {
   border-radius: 5px;
   opacity: 0.8;
   padding: 0.5em;
