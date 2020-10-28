@@ -164,4 +164,5 @@ pre.axg-debug-info {
   text-align: center;
   vertical-align: text-bottom;
   cursor: default;
+  white-space: nowrap;
 }
