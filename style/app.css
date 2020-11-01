@@ -383,3 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 .axg-tr p {
   font-size: smaller;
 }
+
+.control .axg-group:not(table) {
+  display: inline-flex;
+}
