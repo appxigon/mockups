@@ -166,3 +166,7 @@ pre.axg-debug-info {
   cursor: default;
   white-space: nowrap;
 }
+
+.axg-clickable {
+  cursor: pointer;
+}

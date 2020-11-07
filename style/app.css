@@ -387,3 +387,14 @@ h1, h2, h3, h4, h5, h6 {
 .control .axg-group:not(table) {
   display: inline-flex;
 }
+
+#index\.f\.main {
+  display: inline-flex;
+}
+
+#index\.f\.main .axg-rotator {
+  padding: 1em 0.5em;
+}
+#index\.f\.main svg {
+  padding: 0 0.3em;
+}
