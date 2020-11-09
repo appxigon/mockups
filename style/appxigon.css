@@ -170,3 +170,8 @@ pre.axg-debug-info {
 .axg-clickable {
   cursor: pointer;
 }
+
+.axg-comment {
+  border-bottom: 1px dashed #f88;
+  margin-bottom: 2px;
+}
