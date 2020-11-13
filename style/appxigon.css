@@ -154,26 +154,8 @@ pre.axg-debug-info {
   z-index: 100;
 }
 
-.axg-badge {
-  background-color: tomato;
-  color: white;
-  border-radius: 20%;
-  padding: 3px;
-  margin: 0.1em 0.5em;
-  font-size: smaller;
-  text-align: center;
-  vertical-align: text-bottom;
-  cursor: default;
-  white-space: nowrap;
-}
-
 .axg-clickable {
   cursor: pointer;
-}
-
-.axg-comment {
-  border-bottom: 1px dashed #f88;
-  margin-bottom: 2px;
 }
 
 .axg-mandatory {
@@ -181,4 +163,51 @@ pre.axg-debug-info {
   font-weight: bold;
   font-size: larger;
   padding: 2px;
+}
+
+.axg-comment {
+  border-bottom: 1px dashed red;
+  padding: 3px;
+}
+.axg-badge {
+  border-radius: 3px;
+  padding: 2px;
+  margin: 0.1em 0.1em;
+  font-size: smaller;
+  text-align: center;
+  vertical-align: text-bottom;
+  cursor: default;
+  white-space: nowrap;
+}
+.axg-primary {
+  background-color: #007bff;
+  color: white;
+}
+.axg-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.axg-success {
+  background-color: #28a745;
+  color: white;
+}
+.axg-danger {
+  background-color: #dc3545;
+  color: white;
+}
+.axg-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+.axg-info {
+  background-color: #17a2b8;
+  color: white;
+}
+.axg-light {
+  color: #212529;
+  background-color: #f8f9fa;
+}
+.axg-dark {
+  color: #fff;
+  background-color: #343a40;
 }
