@@ -169,6 +169,19 @@ pre.axg-debug-info {
   border-bottom: 1px dashed red;
   padding: 3px;
 }
+.axg-code {
+  /* font-family: monospace; */
+}
+.axg-code-k {
+  color: yellow;
+  margin: 2px;
+}
+.axg-code-v {
+  background-color: white;
+  color: gray;
+  margin: 1 1;
+  padding: 1 2;
+}
 .axg-badge {
   border-radius: 3px;
   padding: 2px;
@@ -210,4 +223,7 @@ pre.axg-debug-info {
 .axg-dark {
   color: #fff;
   background-color: #343a40;
+}
+.axg-link {
+  color: #007bff;
 }
