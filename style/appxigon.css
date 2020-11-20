@@ -166,8 +166,8 @@ pre.axg-debug-info {
 }
 
 .axg-comment {
-  border-bottom: 1px dashed red;
-  padding: 3px;
+  border-bottom: 1px dashed skyblue;
+  padding: 3 0;
 }
 .axg-code {
   /* font-family: monospace; */
