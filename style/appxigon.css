@@ -166,7 +166,7 @@ pre.axg-debug-info {
 }
 
 .axg-comment {
-  border-bottom: 1px dashed skyblue;
+  border: 1px dashed lightskyblue;
   padding: 3 0;
 }
 .axg-code {
@@ -226,4 +226,16 @@ pre.axg-debug-info {
 }
 .axg-link {
   color: #007bff;
+}
+.axg-md {
+  color: #212529;
+  /* background-color: #f8f9fa; */
+  /* background-color: #ffc107; */
+  background-color: #FFFACD;
+  padding: 2 2;
+  margin: 4 0;
+  /* border: 1px dashed pink; */
+}
+.axg-md p {
+  margin: 2 0;
 }
