@@ -1,0 +1,400 @@
+body {
+  background-color: rgb(233, 238, 243);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.sdg-debug {
+  color: red;
+  opacity: 0.3;
+  font-size: x-small;
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  z-index: 100;
+}
+.sdg-debug p {
+  margin: 0px;
+}
+
+.header-title {
+  color: white;
+  margin: 0px;
+}
+.header-title p {
+  margin: 0;
+}
+.header-title strong {
+  text-shadow: 2px 2px black;
+  font-size: x-large;
+}
+.header-title em {
+  font-size: smaller;
+}
+
+.axg-cell {
+  margin-bottom: 5px;
+}
+.axg-cell ul {
+  margin: 0px;
+}
+
+.axg-group {
+  margin: 2px 50px;
+}
+
+.axg-action-block {
+  /* min-height: 70px; */
+  /* max-height: 50px; */
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #FEF9E7;
+}
+.axg-action-block:hover {
+  opacity: 0.7;
+}
+
+.axg-action-line {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.axg-group.nav-group {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin: 1em 0 3em 0;
+}
+
+.axg-action {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.axg-action button {
+  background-color: #00c0ef;
+  border: 1px solid transparent;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.axg-select .control {
+  display: inline-grid;
+}
+.axg-select.single {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-select.single .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-select.single .control {
+  display: inline-block;
+  flex: 3;
+}
+
+.axg-select.multi {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-select.multi .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-select.multi .control {
+  display: inline-grid;
+  flex: 3;
+}
+.axg-select.multi .control.compact {
+  display: inline-block;
+  flex: 3;
+}
+
+.axg-select {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-select .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-select .control {
+  display: inline-block;
+  flex: 3;
+}
+.axg-select option:first {
+  color: #999;
+}
+.axg-input {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-input .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-input .control {
+  /* display: inline-block; */
+  flex: 3;
+}
+
+.axg-composite-field {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.axg-composite-field .axg-group {
+  margin: 0;
+}
+.axg-composite-field .label {
+  display: inline-block;
+  flex: 1;
+}
+.axg-composite-field .control {
+  /* display: inline-block; */
+  flex: 3;
+}
+
+.empty-label {
+  flex: 0 !important;
+}
+
+.doc-row {
+  display: flex;
+}
+
+.doc-name {
+  flex: 1;
+}
+.doc-attrs {
+  display: inline-flex;
+  flex: 2;
+}
+.doc-attr {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.sdg-report {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 20px;
+  border-top: 3px solid #d2d6de;
+  border-bottom: 2px solid #d2d6de;
+}
+
+.sdg-report table {
+  border-top: 1px solid #d2d6de;
+}
+
+.form-page {
+  font-size: smaller;
+}
+
+.form-page table {
+  padding: 0.5em;
+  border: 1px dashed lightgray;
+  background-color: #ddd;
+}
+.form-page table .label {
+  font-size: smaller;
+}
+.form-page h2 {
+  border-bottom: 2px solid #d2d6de;
+}
+.form-page h3 {
+  border-bottom: 1px dashed #d2d6de;
+  text-transform: uppercase;
+  background-image: linear-gradient(to top right, lightgray, transparent);
+  padding: 0.5em 0.2em 0em;
+}
+.form-page h4 {
+  border-bottom: 1px dashed #d2d6de;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em 0.2em 0em;
+}
+.form-page h5 {
+  border-bottom: 1px dashed #d2d6de;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em 0.2em 0em;
+}
+.form-page thead {
+  font-weight: lighter;
+  font-size: 0.7em;
+}
+
+.fa-icon {
+  color: white;
+}
+
+.action-icon {
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.danger {
+  color: red;
+}
+
+#aqueduct\.h\.main\.title {
+  flex: 2;
+  padding: 5px !important;
+}
+#aqueduct\.h\.main\.user-actions {
+  flex: 1;
+  margin: 0px !important;
+  padding: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#aqueduct\.h\.links {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  padding: 5px;
+}
+
+#aqueduct\.h\.main {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+}
+
+#aqueduct\.f {
+  position: fixed;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
+#aqueduct\.f {
+  background: white;
+  color: #444;
+  margin: 0px;
+  padding: 0px 0px;
+  border-top: 1px solid #d2d6de;
+  font-size: smaller;
+}
+
+#aqueduct\.sample-nda\.main {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 20px;
+  border-top: 3px solid #d2d6de;
+  border-bottom: 2px solid #d2d6de;
+  font-size: smaller;
+}
+
+#aqueduct\.welcome\.main\.message {
+  text-align: center;
+}
+
+
+#survey\.h\.main\.title {
+  flex: 2;
+  padding: 5px !important;
+}
+#survey\.h\.main\.user-actions {
+  flex: 1;
+  margin: 0px !important;
+  padding: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#survey\.h\.links {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  padding: 5px;
+}
+
+#survey\.f {
+  position: fixed;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
+#survey\.f {
+  background: white;
+  color: #444;
+  margin: 0px;
+  padding: 0px 0px;
+  border-top: 1px solid #d2d6de;
+  font-size: smaller;
+}
+
+#survey\.sample-nda\.main {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 20px;
+  border-top: 3px solid #d2d6de;
+  border-bottom: 2px solid #d2d6de;
+  font-size: smaller;
+}
+
+#survey\.welcome\.main\.message {
+  text-align: center;
+}
+
+#survey\.h\.main {
+  background-color: #3c8dbc;
+  margin: 0px !important;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+}
+
+.push-next {
+  margin-bottom: 1em;
+}
+
+.axg-select .group-label {
+  font-weight: bold;
+  border-bottom: 1px dashed lightgray;
+  padding: 0.5em 0.2em 0em;
+}
+
+.label .axg-icon {
+  padding: 0 0.5em;
+  color: orange;
+}
+
+.axg-tr p {
+  font-size: smaller;
+}
+
+.control .axg-group:not(table) {
+  display: inline-flex;
+}
+
+#aqueduct\.f\.main {
+  display: inline-flex;
+}
+
+#aqueduct\.f\.main .axg-rotator {
+  padding: 1em 0.5em;
+}
+#aqueduct\.f\.main svg {
+  padding: 0 0.3em;
+}
