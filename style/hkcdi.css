@@ -33,7 +33,7 @@
 #hkcdi\.f {
   background: white;
   color: #444;
-  margin: 0px;
+  /* margin: 0px; */
   padding: 0px 0px;
   border-top: 1px solid #d2d6de;
   font-size: smaller;
@@ -44,8 +44,53 @@
 }
 
 #hkcdi\.f\.main .axg-rotator {
-  padding: 1em 0.5em;
+  padding-left: 0.5em;
 }
 #hkcdi\.f\.main svg {
-  padding: 0 0.3em;
+  margin: 0 0.5em;
+}
+
+.w60 {
+  width: 60%;
+}
+.pane-centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.group-inline {
+  display: inline-flex;
+}
+.child-h-centered {
+  text-align: center;
+}
+
+.hkcdi-logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#hkcdi\.h\.header\.logo h2 {
+  color: white !important;
+  /* margin: 0px !important; */
+  /* margin: 16px 24px 16px 0; */
+  /* padding: 5px 10px; */
+  /* background-color:  */
+  /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+#hkcdi\.f {
+  background: #f0f2f5 !important;
+}
+
+body {
+  background: #f0f2f5 !important;
+}
+
+.hkcdi-form-page h3 {
+  text-decoration: underline;
 }

@@ -145,6 +145,11 @@ pre.axg-debug-info {
   white-space: nowrap;
 }
 
+.control label span {
+  margin: 0 0.5em;
+  align: bottom;
+}
+
 .popper {
   border-radius: 5px;
   opacity: 0.8;

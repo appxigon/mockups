@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-page {
-  font-size: smaller;
+  /* font-size: smaller; */
 }
 
 .form-page table {
@@ -393,8 +393,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aqueduct\.f\.main .axg-rotator {
-  padding: 1em 0.5em;
+  padding-left: 0.5em;
 }
 #aqueduct\.f\.main svg {
-  padding: 0 0.3em;
+  margin: 0 0.3em;
 }

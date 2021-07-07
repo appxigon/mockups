@@ -43,5 +43,9 @@
 }
 
 .switcher .axg-icon {
-  padding: 0px 4px;
+  margin: 0px 4px;
+}
+
+.v-centered {
+  align-self: center;
 }
